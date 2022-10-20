@@ -1,0 +1,29 @@
+{
+  "extends": [
+    // "@umijs/max/eslint",
+    "eslint:recommended",
+    "plugin:import/typescript",
+    "plugin:promise/recommended", // Turns on rules from the Promise plugin.
+    "plugin:@typescript-eslint/recommended", // Turns on rules from TypeScript-specific plugin.
+    "plugin:react/recommended", // Recommended react linting configs.
+    "plugin:react-hooks/recommended", // Recommended react hooks linting configs.
+    "plugin:prettier/recommended" // Enables eslint-plugin-prettier and displays prettier errors as ESLint errors. Make sure this is always the last configuration in the extends array.
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": {
+      "typescript": {} // this loads <rootdir>/tsconfig.json to eslint
+    }
+  },
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "warn",
+    "promise/always-return": "off" //promise 中必须要 return 语句（已关闭）
+  }
+}

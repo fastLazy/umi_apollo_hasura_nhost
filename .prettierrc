@@ -1,0 +1,6 @@
+{
+  "printWidth": 300,
+  "trailingComma": "all",
+  "proseWrap": "never",
+  "endOfLine": "auto"
+}
