@@ -25,29 +25,3 @@ pnpm install
 ```shell
 pnpm start
 ```
-
-### 相关学习资料
-
-#### umijs
-
-https://www.umijs.org
-
-#### Graphql (学习 Gql 语法)
-
-https://graphql.org/learn/
-
-https://graphql.cn/learn/ (中文网)
-
-#### Apollo Client
-
-https://www.apollographql.com/docs/react/get-started
-
-HASURA （开发文档）
-
-https://hasura.io/docs/latest/queries/postgres/simple-object-queries/
-
-### HASURA CRUD demo 演示
-
-启动项目，然后访问路由：http://localhost:8000/demo
-
-代码路径：/src/pages/demo/

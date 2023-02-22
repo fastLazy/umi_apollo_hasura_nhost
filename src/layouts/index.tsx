@@ -5,8 +5,8 @@ import { NhostApolloProvider } from "@nhost/react-apollo";
 
 const Layout = () => {
   const nhost = new NhostClient({
-    subdomain: "<app-subdomain>",
-    region: "<app-region>",
+    subdomain: process.env.SUBDOMAIN,
+    region: process.env.REGION,
   });
   return (
     <React.StrictMode>
